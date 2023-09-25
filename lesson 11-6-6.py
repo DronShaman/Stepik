@@ -18,3 +18,4 @@ list.insert(positio_min, max_number)
 list.insert(positio_max, min_number)
 print(list)
 print(positio_max)
+
