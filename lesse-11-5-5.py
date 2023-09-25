@@ -7,3 +7,4 @@ for i in range(0, len(num)):
     print(int(num[i]) * "+")
 
 
+
