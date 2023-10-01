@@ -1,3 +1,10 @@
-a = 17 // (23 % 7)
-b = 34 % a * 5 - 29 % 4 * 3
-print(a * b)
+# s = int(input())
+# if s % 2 == 0:
+#     print("Четное")
+# else:
+#     print("Нечетное")
+
+f = "Таня я тебя люблю!!!"
+for e in f:
+def
+print(f)
