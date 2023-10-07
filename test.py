@@ -1,10 +1,15 @@
-# s = int(input())
-# if s % 2 == 0:
-#     print("Четное")
-# else:
-#     print("Нечетное")
+a = 2
+b = 4
+c = 6
 
-f = "Таня я тебя люблю!!!"
-for e in f:
-def
-print(f)
+a == 2 or b > 2
+
+6 <= c and a > 3
+
+1 != b and c != 3
+
+a >= -1 or a <= b
+
+not (a > 2)
+
+not (c <= 10)
