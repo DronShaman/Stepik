@@ -2,14 +2,32 @@ a = 2
 b = 4
 c = 6
 
-a == 2 or b > 2
+if a == 2 or b > 2:
+    print("True")
+else:
+    print("False")
 
-6 <= c and a > 3
+if 6 <= c and a > 3:
+    print("True")
+else:
+    print("False")
 
-1 != b and c != 3
+if 1 != b and c != 3:
+    print("True")
+else:
+    print("False")
 
-a >= -1 or a <= b
+if a >= -1 or a <= b:
+    print("True")
+else:
+    print("False")
 
-not (a > 2)
+if not(a > 2):
+    print("True")
+else:
+    print("False")
 
-not (c <= 10)
+if not (c <= 10):
+    print("True")
+else:
+    print("False")
