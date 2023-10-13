@@ -1,33 +1,12 @@
-a = 2
-b = 4
-c = 6
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
 
-if a == 2 or b > 2:
-    print("True")
+if x1 + y1 == x2 + y2 or x1 - y1 == x2 - y2:
+    print("YES")
+# ход ладьи
+elif x1 == x2 or y1 == y2:
+    print("YES")
 else:
-    print("False")
-
-if 6 <= c and a > 3:
-    print("True")
-else:
-    print("False")
-
-if 1 != b and c != 3:
-    print("True")
-else:
-    print("False")
-
-if a >= -1 or a <= b:
-    print("True")
-else:
-    print("False")
-
-if not(a > 2):
-    print("True")
-else:
-    print("False")
-
-if not (c <= 10):
-    print("True")
-else:
-    print("False")
+    print("NO")
