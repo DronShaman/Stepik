@@ -22,10 +22,10 @@ if a4 < 0:
     a4 = a4 * (-1)
 if a5 < 0:
     a5 = a5 * (-1)
-print(a1)
-print(a2)
-print(a3)
-print(a4)
-print(a5)
+
 sum = a1 + a2 + a3 + a4 + a5
-print(sum)
+print(sum)# put your python code here
+
+
+
+

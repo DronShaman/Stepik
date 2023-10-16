@@ -1,12 +1,2 @@
-x1 = int(input())
-y1 = int(input())
-x2 = int(input())
-y2 = int(input())
-
-if x1 + y1 == x2 + y2 or x1 - y1 == x2 - y2:
-    print("YES")
-# ход ладьи
-elif x1 == x2 or y1 == y2:
-    print("YES")
-else:
-    print("NO")
+mystr = '123' * 3 + '456' * 2 + '789' * 1
+print(mystr)
