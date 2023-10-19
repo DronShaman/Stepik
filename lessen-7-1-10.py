@@ -6,4 +6,9 @@
 m = int(input())
 p = int(input())
 n = int(input())
+s = m
+print(1, m)
+for i in range(n-1):
+    s = s + s * (p / 100)
+    print(i+2, s)
 
