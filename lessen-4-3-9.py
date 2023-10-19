@@ -14,10 +14,10 @@ col2 = input()
 if (col1 == "красный" and col2 == "синий") or (col2 == "красный" and col1 == "синий"):
     print("фиолетовый")
 elif (col1 == "красный" and col2 == "желтый") or (col2 == "красный" and col1 == "желтый"):
-        print("оранжевый")
+    print("оранжевый")
 elif (col1 == "синий" and col2 == "желтый") or (col2 == "синий" and col1 == "желтый"):
-        print("зеленый")
-elif ((col1 == col2 and col1 == "желтый" and col1 == "желтый")  or (col1 == col2 and col1 == "синий" and col1 == "синий") or
+    print("зеленый")
+elif ((col1 == col2 and col1 == "желтый" and col1 == "желтый") or (col1 == col2 and col1 == "синий" and col1 == "синий") or
       (col1 == col2 and col1 == "красный" and col1 == "красный")):
     print(col1)
 else:
