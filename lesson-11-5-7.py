@@ -5,9 +5,11 @@
 
 stroka: str = input()
 s = stroka.split(".")
-
-if (((int(s[0]) <= 0) and (int(s[0]) > 255)) and ((int(s[1]) <= 0) and (int(s[1]) > 255)) and ((int(s[2]) <= 0) and (int(s[2]) > 255)) and
-        ((int(s[3]) <= 0) and (int(s[3]) > 255))):
+counter = 0
+for i in range(len(s)):
+    if int(s[i]) >= 0 and int(s[i]) < 256:
+        counter += 1
+if counter == 4:
     print("ДА")
 else:
     print("НЕТ")

@@ -4,18 +4,18 @@
 # 3 4 1 2 5
 # 1 9 8 7 6 5 4 3 2 10
 
+n = input()
+n = n.split()
+for i in range(len(n)):
+    n[i] = int(n[i])
+minim = min(n)
+maxim = max(n)
 
-stroka : str = input()
+positio_max = n.index(maxim)
+positio_min = n.index(minim)
 
-list = list(stroka)
-print(list)
-max_number = max(list)
-min_number = min(list)
-positio_max = list.index(max_number)
-positio_min = list.index(min_number)
+n[positio_max ] = minim
+n[positio_min] = maxim
 
-list.insert(positio_min, max_number)
-list.insert(positio_max, min_number)
-print(list)
-print(positio_max)
-
+for i in range(len(n)):
+    print(n[i], sep=" ", end=" ")
