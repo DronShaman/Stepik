@@ -7,10 +7,9 @@ def quick_merge(n):
     for i in range(n):
         m = list(map(int, input().split()))
         s = s + m
-    s = s.sort()
+        s.sort()
     for j in range(len(s)):
-        print(s[j], end="")
-
+        print(s[j], end=" ")
 
 num = int(input())
 
