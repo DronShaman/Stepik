@@ -1,13 +1,16 @@
 # объявление функции
-def merge(a, list):
-    for i in range(n):
-        for j in range()
-    a.sort()
-    return a
+def factorial(n):
+    fac = 1
+    for i in range(1, n+1):
+        fac = i * fac
+    return fac
+def compute_binom(n, k):
+    ret = factorial(n) / (factorial(k) * factorial(n - k))
+    return int(ret)
 
 # считываем данные
-numbers1 = [int(c) for c in input().split()]
-numbers2 = [int(c) for c in input().split()]
+n = int(input())
+k = int(input())
 
 # вызываем функцию
-print(merge(n, numbers))
+print(compute_binom(n, k))
