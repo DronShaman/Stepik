@@ -1,10 +1,6 @@
 # В одну строку 2
 # На вход программе подается строка текста.
 # Напишите программу, использующую списочное выражение, которая выводит все цифровые символы данной строки.
-text = input()
-numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-s = ""
-for i in range(len(text)):
-    if text[i] in numbers:
-        print(text[i])
-print(s)
+
+
+print("".join([i for i in input() if i.isdigit()]))
